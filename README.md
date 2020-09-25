@@ -10,9 +10,9 @@
 ## Local Setup
 ```
 
-#### 1. Create new empty Github repo using the ```Use this template``` button on your Fork
+##### 1. Create new empty Github repo using the ```Use this template``` button on your Fork
 
-#### 2. Clone new Github repo. e.g.
+##### 2. Clone new Github repo. e.g.
 
 ```bash
 $ git clone git@github.com:user_name/new_python_project.git new_python_project
