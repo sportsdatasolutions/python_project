@@ -14,7 +14,7 @@
 
 $ git clone git@github.com:user_name/new_python_project.git new_python_project
 
-#### 3. Setup ```Pipfile``` for dependencies e.g.
+#### 3. Setup ```Pipfile``` for dependencies (packages the project will depend on) e.g.
 
 $ pipenv install jupyter pandas
 
@@ -87,7 +87,7 @@ $ git push
 
 #### ```Dependencies```
 
-> Instructions for installing project dependencies.
+> Instructions for installing project dependencies (packages the project will depend on).
 
 #### ```Running```
 
