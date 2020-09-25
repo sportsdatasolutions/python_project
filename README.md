@@ -3,10 +3,9 @@
 > See our [Python Project Templates](https://github.com/sportsdatasolutions/python_project_template) to ***customise*** your clone-able project template 💻 🐍 ⚡️ 🎉 🤝
 
 ```markdown
-## Delete Me Once Complete:
+## First Timers (Fork this repo first):
 
-#### 1. Fork this repo.
-#### 2. Clone/Link your Fork.
+#### 2. Clone/Link your Fork to local/deepnote project.
 #### 3. Delete the ```.git``` folder.
 #### 4. Create new empty Github repo.
 #### 5. Deepnote, unlink old repo and link new repo.
