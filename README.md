@@ -1,8 +1,25 @@
 ## Project Title
 
-> Sub-Heading (Small Description) 💻 🐍 ⚡️ 🎉 🤝
+> > See our [Python Project Templates](https://github.com/sportsdatasolutions/python_project_template) to ***customise*** your clone-able project template 💻 🐍 ⚡️ 🎉 🤝
 
-See our [Python Project Templates](https://github.com/sportsdatasolutions/python_project_template) to customise.
+```markdown
+## Delete Me Once Complete:
+
+#### 1. Fork this repo.
+#### 2. Clone/Link your Fork.
+#### 3. Delete the ```.git``` folder.
+#### 4. Create new empty Github repo.
+#### 5. Deepnote, unlink old repo and link new repo.
+#### 5. Locally...within project root.
+
+$ git clone git@github.com:user_name/new_project.git .
+
+#### 6. Git Add, Commit and Push
+
+$ git add .
+$ git commit -m "init"
+$ git push
+```
 
 ### Getting Started
 
