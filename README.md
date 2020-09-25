@@ -9,40 +9,29 @@
 ```markdown
 ## Local Setup
 
-#### 1. Clone your Fork to new local project
-#### 2. Delete the ```.git``` folder
-#### 3. Create new empty Github repo
-#### 4. Clone new Github repo within local project (using dot expression ```.```)
+#### 1. Create new empty Github repo using the ```Use this template``` button on your Fork
+#### 2. Clone new Github repo. e.g.
 
-$ git clone git@github.com:user_name/new_project.git .
+$ git clone git@github.com:user_name/new_python_project.git new_python_project
 
-#### 5. Git Add, Commit and Push
-
-$ git add .
-$ git commit -m "init"
-$ git push
-
-#### 6. Setup ```Pipfile``` for dependencies
+#### 3. Setup ```Pipfile``` for dependencies
 
 $ pipenv install
+
+#### 4. Git Add, Commit and Push
+
+$ git add .
+$ git commit -m "pipenv"
+$ git push
 ```
 
 ```markdown
 ## Deepnote Setup
 
-#### 1. Link your Fork to new Deepnote project
-#### 2. Delete the ```.git``` folder
-#### 3. Move project files out of the cloned folder and delete empty folder
-#### 4. Create new empty Github repo
-#### 5. Unlink old repo and link new repo
-#### 6. Move new ```.git``` folder out of cloned folder and delete empty folder
-#### 7. Open a Terminal and Git Add, Commit and Push
-
-$ git add .
-$ git commit -m "init"
-$ git push
-
-#### 6. Setup ```pipenv``` by editing code cell in ```init.ipynb``` and restarting the project machine:
+#### 1. Create new Github repo using the ```Use this template``` button on your Fork
+#### 2. Link your Github repo to a new Deepnote project
+#### 3. Move all files and folders, including ```.git```, into project root and delete the empty folder
+#### 4. Setup ```pipenv``` by editing code cell in ```init.ipynb``` and restarting the project machine:
 
 %%bash
 # If your project has a 'Pipfile' file, we'll install it here apart from blacklisted packages that interfere with Deepnote (see above).
@@ -55,6 +44,12 @@ if test -f Pipfile
     pip install pipenv
     pipenv install
 fi
+
+#### 5. Open a Terminal and Git Add, Commit and Push
+
+$ git add .
+$ git commit -m "init"
+$ git push
 ```
 
 ### Getting Started
