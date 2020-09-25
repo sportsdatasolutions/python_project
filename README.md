@@ -1,6 +1,6 @@
 ## Project Title
 
-> > See our [Python Project Templates](https://github.com/sportsdatasolutions/python_project_template) to ***customise*** your clone-able project template 💻 🐍 ⚡️ 🎉 🤝
+> See our [Python Project Templates](https://github.com/sportsdatasolutions/python_project_template) to ***customise*** your clone-able project template 💻 🐍 ⚡️ 🎉 🤝
 
 ```markdown
 ## Delete Me Once Complete:
