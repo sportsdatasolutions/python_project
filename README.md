@@ -39,10 +39,10 @@ if test -f Pipfile
   then
     sed -i '/jedi/d;/jupyter/d;' Pipfile
     pip install pipenv
-    pipenv install
+    pipenv install --skip-lock
   else 
     pip install pipenv
-    pipenv install
+    pipenv install --skip-lock
 fi
 
 #### 5. Optionally add additional customisation in new code cell and run the cell e.g. Git Aliases:
@@ -55,22 +55,6 @@ git config --global alias.br branch
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 #### 6. Open a Terminal and Git Add, Commit and Push
-
-$ git add .
-$ git commit -m "init"
-$ git push
-```
-
-```markdown
-## Deepnote Setup (Option 2)
-
-#### 1. Duplicate this Deepnote Project: https://deepnote.com/project/41043ef0-40b2-438a-99f7-872138598685 (On the header ```Python Project (Template) > Duplicate project```).
-
-#### 2. Create and Link a new empty Github repo to your new Deepnote project
-
-#### 3. Move the ```.git``` folder into the Deepnote project root and delete the empty folder
-
-#### 4. Open a Terminal and Git Add, Commit and Push
 
 $ git add .
 $ git commit -m "init"
@@ -95,4 +79,4 @@ $ git push
 
 #### ```Contributing```
 
-> Instructions for contributing to the project. e.g. See [contributing.md](./contributing.md).
+> See [contributing.md](./contributing.md).
