@@ -16,6 +16,7 @@ $ git clone git@github.com:user_name/new_python_project.git new_python_project
 
 #### 3. Setup ```Pipfile``` for dependencies (packages the project will depend on) e.g.
 
+$ cd new_python_project
 $ pipenv install jupyter pandas
 
 #### 4. Git Add, Commit and Push
@@ -64,7 +65,7 @@ $ git push
 ```markdown
 ## Deepnote Setup (Option 2)
 
-#### 1. Duplicate this Deepnote Project: https://deepnote.com/project/41043ef0-40b2-438a-99f7-872138598685 (On the header ```Python Project (Template) > Duplicate project```).
+#### 1. Create a Deepnote Project (which will be your project template) that already has a custom ```init.ipynb``` section e.g. https://deepnote.com/project/41043ef0-40b2-438a-99f7-872138598685#%2Finit.ipynb (to duplicate a project, enter the project on deepnote, on the header dropdown ```Project Name > Duplicate project```)
 
 #### 2. Create and Link a new empty Github repo to your new Deepnote project
 
