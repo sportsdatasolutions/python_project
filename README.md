@@ -40,10 +40,10 @@ if test -f Pipfile
   then
     sed -i '/jedi/d;/jupyter/d;' Pipfile
     pip install pipenv
-    pipenv install
+    pipenv install --skip-lock
   else 
     pip install pipenv
-    pipenv install
+    pipenv install --skip-lock
 fi
 
 #### 5. Optionally add additional customisation in new code cell and run the cell e.g. Git Aliases:
