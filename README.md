@@ -1,6 +1,6 @@
 ## Project Title
 
-> See our [Python Project Templates](https://github.com/sportsdatasolutions/python_project_template) project to ***understand*** and ***customise*** this clone-able template for yourself 💻 🐍 ⚡️ 🎉 🤝
+> See our [Python Project Templates (Tutorial)](https://github.com/sportsdatasolutions/python_project_template) project to ***understand*** and ***customise*** this clone-able template for yourself 💻 🐍 ⚡️ 🎉 🤝
 
 ```markdown
 ## First Timers - Fork this repo first!
