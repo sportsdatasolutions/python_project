@@ -65,12 +65,9 @@ $ git push
 ```markdown
 ## Deepnote Setup (Option 2)
 
-#### 1. Create a Deepnote Project (which will be your project template) that already has a custom ```init.ipynb``` section e.g. https://deepnote.com/project/41043ef0-40b2-438a-99f7-872138598685#%2Finit.ipynb (to duplicate a project, enter the project on deepnote, on the header dropdown ```Project Name > Duplicate project```)
-
-#### 2. Create and Link a new empty Github repo to your new Deepnote project
-
+#### 1. Create a Deepnote Project (which will be your project template) that already has a custom ```init.ipynb``` section (e.g. https://deepnote.com/project/41043ef0-40b2-438a-99f7-872138598685). To duplicate a Deepnote Project, open the project, and on the header dropdown, click duplicate project.
+#### 2. Then simply Create and Link an empty Github repo to your new Deepnote project
 #### 3. Move the ```.git``` folder into the Deepnote project root and delete the empty folder
-
 #### 4. Open a Terminal and Git Add, Commit and Push
 
 $ git add .
