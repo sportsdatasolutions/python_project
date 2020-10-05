@@ -93,4 +93,4 @@ $ git push
 
 #### ```Contributing```
 
-> Instructions for contributing to the project. e.g. See [contributing.md](./contributing.md).
+> See [contributing.md](./contributing.md).
