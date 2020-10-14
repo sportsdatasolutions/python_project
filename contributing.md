@@ -27,9 +27,9 @@ $ git checkout -b sds/bug_fix
 
 #### 5. Finaly co-operate with maintainers to get your contribution merged!
 
-## Report Bugs using [Github Issues](/issues)
+## Report Bugs using [Github Issues](../../issues)
 
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](/issues/new); it's that easy! 
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](../../issues/new); it's that easy! 
 
 **Write Bug Reports** with ***detail, background, and sample code.***
 
