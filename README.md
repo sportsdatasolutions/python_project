@@ -10,15 +10,15 @@
   ```markdown
   ## First Timers - Fork this repo first!
   ```
-  1. ##### Create new empty Github repo using the ```Use this template``` button on your Fork
+  1. ##### Create new empty Github repo using the ```Use this template``` button on your Fork.
   2. ##### Clone new Github repo. e.g.
     $ git clone git@github.com:user_name/new_python_project.git new_python_project
     
-  3. ##### Setup ```Pipfile``` for dependencies (packages the project will depend on) e.g.
+  3. ##### Setup ```Pipfile``` for dependencies (packages the project will depend on). e.g.
     $ cd new_python_project
     $ pipenv install jupyter pandas
     
-  4. ##### Git Add, Commit and Push
+  4. ##### Git Add, Commit and Push.
     $ git add .
     $ git commit -m "init"
     $ git push
@@ -32,11 +32,13 @@
   ```markdown
   ## Duplicate your Deepnote Project Template
   ```
-  1. ##### To start a new Python Project, ***duplicate*** your new template
-  2. ##### Create a [new Github repo](https://github.com/new) (empty or with new licence)
-  3. ##### [Link your Github repo](https://docs.deepnote.com/integrations/github) to new Deepnote Project
-  4. ##### Open a Terminal, move contents of cloned Github repo folder into Deepnote project root.
-  5. ##### And Git Add, Commit and Push
+  1. ##### To start a new Python Project, ***duplicate*** your new template.
+  2. ##### Create a [new Github repo](https://github.com/new) (empty or with new licence).
+  3. ##### [Link your Github repo](https://docs.deepnote.com/integrations/github) to new Deepnote Project.
+  4. ##### Open a Terminal, copy/move contents of cloned Github repo folder into Deepnote project root and delete cloned project folder. e.g.
+    $ cp -a project_folder/. .
+    $ rm -fr project_folder
+  5. ##### Open a Terminal, Git Add, Commit and Push.
     $ git add .
     $ git commit -m "init"
     $ git push
