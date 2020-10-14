@@ -1,4 +1,4 @@
-## Project Title [<img height="31" align="right" src="https://beta.deepnote.com/buttons/launch-in-deepnote.svg">](https://deepnote.com/project/38ed87ae-207f-4a03-bfc1-5204106200d5)
+## Project Title [<img height="31" align="right" src="https://beta.deepnote.com/buttons/launch-in-deepnote-white.svg">](https://deepnote.com/project/38ed87ae-207f-4a03-bfc1-5204106200d5)
 
 > See our [Python Project Templates (Tutorial)](https://github.com/sportsdatasolutions/python_project_template) project to ***understand*** and ***customise*** this clone-able template for yourself 💻 🐍 ⚡️ 🎉 🤝
 
