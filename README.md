@@ -14,9 +14,9 @@
   2. ##### Clone new Github repo. e.g.
     $ git clone git@github.com:user_name/new_python_project.git new_python_project
     
-  3. ##### Setup ```Pipfile``` for dependencies (packages the project will depend on). e.g.
+  3. ##### Setup ```Pipfile``` for dependencies (will automatically install from requirements.txt if present). e.g.
     $ cd new_python_project
-    $ pipenv install jupyter pandas
+    $ pipenv install
     
   4. ##### Git Add, Commit and Push.
     $ git add .
